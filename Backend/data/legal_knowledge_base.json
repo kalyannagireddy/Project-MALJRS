@@ -1,0 +1,70 @@
+{
+  "criminal_indicators": [
+    "hit",
+    "beat",
+    "assault",
+    "stab",
+    "shoot",
+    "steal",
+    "rob",
+    "threaten",
+    "kill",
+    "rape",
+    "harass",
+    "cheat",
+    "arrest",
+    "bail",
+    "FIR",
+    "police",
+    "molest",
+    "abuse"
+  ],
+  "civil_indicators": [
+    "divorce",
+    "property",
+    "rent",
+    "lease",
+    "evict",
+    "tenant",
+    "landlord",
+    "contract",
+    "agreement",
+    "salary",
+    "wage",
+    "loan",
+    "plaint",
+    "court fee",
+    "mediation",
+    "custody",
+    "maintenance"
+  ],
+
+  "criminal_procedures": {
+    "default": "1. File FIR at nearest police station (Section 154 CrPC)\n2. Obtain FIR copy (free under SC order)\n3. Preserve evidence (photos, medical reports, messages)\n4. Follow up with Investigating Officer (IO) and record communications\n+5. Apply for free legal aid via State Legal Services Authority (SLSA)\n6. If needed, apply for anticipatory bail (Section 438 CrPC)\n7. Consider women's/child helplines and immediate protection orders where available",
+    "sexual_assault": "1. Seek immediate medical attention and forensic exam (medico-legal report)\n2. File FIR and preserve chain of custody\n3. Apply for interim protection orders if threatened\n4. Approach SLSA for legal aid\n5. Be aware of timelines for evidence preservation"
+  },
+
+  "civil_procedures": {
+    "family": "1. Send legal notice\n2. File petition in Family Court\n3. Attend mandatory counseling\n4. Present evidence (documents, witnesses)\n5. Consider mediation and settlement discussions\n6. Await judgment (typically 6–24 months)",
+    "property": "1. Send legal notice\n2. File suit in Civil Court (jurisdiction: where property is)\n3. Pay court fee\n4. Attend hearings\n5. Enforce decree via execution petition",
+    "consumer": "1. Draft notice to opposite party\n2. File complaint before Consumer Forum/NCDRC\n3. Serve summons and prepare evidentiary bundle\n4. Attend hearings\n5. Seek compensation or replacement as relief"
+  },
+
+  "constitutional_principles": {
+    "criminal": "Article 21 (Right to Life & Liberty): Protection against arbitrary arrest\nArticle 22: Rights during detention and procedural safeguards\nArticle 14: Equality before law and non-discrimination\nArticle 20: Protection against retrospective punishment",
+    "civil": "Article 21: Right to livelihood, housing, dignity\nArticle 15: Protection from gender-based discrimination\nArticle 19: Freedoms where relevant (speech/association)\nArticle 39(a): Equal pay for equal work"
+  },
+
+  "sample_cases": {
+    "criminal": [
+      "State v. Rajesh (Delhi HC, 2022): 6 months for criminal intimidation (IPC 506)",
+      "Sunita Devi v. State (SC, 2021): Police must register FIR for cognizable offenses",
+      "Ramesh v. State (Bombay HC, 2019): Importance of timely medical evidence in assault cases"
+    ],
+    "civil": [
+      "Meena Gupta v. Rajiv (Delhi HC, 2020): Divorce granted on mental cruelty grounds",
+      "Builder v. Homebuyer (NCDRC, 2023): Compensation for delayed possession",
+      "Asha v. Kumar (Kerala HC, 2018): Maintenance awarded to spouse based on earnings and needs"
+    ]
+  }
+}
