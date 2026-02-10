@@ -57,6 +57,14 @@ export interface CaseData {
   aiAssistance: string[];
 }
 
+export interface StoredCase extends CaseData {
+  id: string;
+  userId: string;
+  createdAt: string;
+  updatedAt: string;
+  status: string;
+}
+
 export const CASE_TYPES = ["Civil", "Criminal", "Contract", "Property", "Family", "IPC", "Other"];
 export const CASE_STAGES = ["Notice", "Filed", "Evidence", "Trial", "Appeal"];
 export const EVIDENCE_STRENGTHS = ["Strong", "Medium", "Weak"] as const;

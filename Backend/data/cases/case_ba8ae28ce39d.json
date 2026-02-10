@@ -1,0 +1,319 @@
+{
+  "id": "case_ba8ae28ce39d",
+  "data": {
+    "caseTitle": "Sharma Family vs. Builder Constructions Pvt Ltd - Breach of Agreement & Specific Performance",
+    "caseType": "Civil",
+    "courtJurisdiction": "District Court, Gurgaon, Haryana",
+    "stageOfCase": "Pre-Trial",
+    "plaintiffName": "Mr. Rajesh Sharma & Mrs. Meera Sharma",
+    "defendantName": "Builder Constructions Pvt Ltd & Director Mr. Anil Kapoor",
+    "timeline": [
+      {
+        "id": "1",
+        "date": "2021-03-15",
+        "description": "Booking of Flat No. 402, Tower A, \"Dream Homes\" project. Booking amount Rs. 5,00,000 paid via cheque",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "2",
+        "date": "2021-03-20",
+        "description": "Builder Buyer Agreement signed. Total property value Rs. 75,00,000. Possession promised by March 2023",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "3",
+        "date": "2021-05-10",
+        "description": "First installment of Rs. 15,00,000 paid as per payment schedule",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "4",
+        "date": "2021-09-15",
+        "description": "Second installment of Rs. 20,00,000 paid despite construction delays",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "5",
+        "date": "2022-01-20",
+        "description": "Site visit revealed slow construction progress, only basement complete",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "6",
+        "date": "2022-03-15",
+        "description": "Third installment of Rs. 15,00,000 paid under pressure from builder",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "7",
+        "date": "2022-08-01",
+        "description": "Builder sent email announcing 6-month delay due to labor issues",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "8",
+        "date": "2023-03-15",
+        "description": "Original possession date passed. Project only 40% complete",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "9",
+        "date": "2023-04-10",
+        "description": "Multiple buyers filed complaint with RERA (Real Estate Regulatory Authority)",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "10",
+        "date": "2023-06-01",
+        "description": "Builder announced additional delay of 12 months without compensation",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "11",
+        "date": "2023-07-15",
+        "description": "Legal notice sent demanding possession or full refund with interest",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "12",
+        "date": "2023-08-01",
+        "description": "Builder replied refusing refund, offering possession in June 2024",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "13",
+        "date": "2023-09-10",
+        "description": "RERA issued show-cause notice to builder for delays",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      },
+      {
+        "id": "14",
+        "date": "2023-10-01",
+        "description": "Filed civil suit for specific performance and compensation",
+        "peopleInvolved": "",
+        "proofAvailable": true
+      }
+    ],
+    "claims": [
+      "Breach of Builder Buyer Agreement by failing to deliver possession within agreed timeline",
+      "Violation of RERA Act 2016 for delayed possession without justified reasons",
+      "Unfair trade practice by accepting payments despite knowing project delays",
+      "Mental harassment and financial loss due to continued rental payments for current residence",
+      "Failure to pay promised delay compensation as per Agreement clause 8.2"
+    ],
+    "reliefRequested": "1. Specific Performance: Deliver possession of Flat No. 402 within 3 months\n2. Delay Compensation: Rs. 10,000 per month from March 2023 to actual possession date\n3. Mental Harassment & Agony: Rs. 5,00,000\n4. Refund of Additional Rental Costs: Rs. 3,60,000 (Rs. 30,000 x 12 months)\n5. Interest on delayed possession at 10% per annum on amount paid\n6. Litigation costs and legal fees\n7. In alternative, full refund of Rs. 55,00,000 paid with 12% interest per annum\n8. Any other relief deemed fit by the Hon'ble Court",
+    "evidence": [
+      {
+        "id": "1",
+        "type": "Documentary",
+        "description": "Original Builder Buyer Agreement dated 20.03.2021 with possession clause specifying March 2023 delivery",
+        "linkedTimelineEventId": "2",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "2",
+        "type": "Documentary",
+        "description": "Booking receipt and cheque copy for Rs. 5,00,000 dated 15.03.2021",
+        "linkedTimelineEventId": "1",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "3",
+        "type": "Documentary",
+        "description": "Bank statements showing three installment payments (Rs. 15L, 20L, 15L) with transaction dates",
+        "linkedTimelineEventId": "3",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "4",
+        "type": "Email",
+        "description": "Email from builder dated 01.08.2022 citing labor shortages and announcing 6-month delay",
+        "linkedTimelineEventId": "7",
+        "strength": "Moderate",
+        "fileName": ""
+      },
+      {
+        "id": "5",
+        "type": "Documentary",
+        "description": "Photographs of construction site taken during inspection on 20.01.2022 showing minimal progress",
+        "linkedTimelineEventId": "5",
+        "strength": "Moderate",
+        "fileName": ""
+      },
+      {
+        "id": "6",
+        "type": "Documentary",
+        "description": "Legal notice sent via registered post on 15.07.2023 with acknowledgment receipt",
+        "linkedTimelineEventId": "11",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "7",
+        "type": "Documentary",
+        "description": "Builder's reply to legal notice dated 01.08.2023 refusing refund",
+        "linkedTimelineEventId": "12",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "8",
+        "type": "Documentary",
+        "description": "RERA registration certificate of the project showing approved timeline",
+        "linkedTimelineEventId": "13",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "9",
+        "type": "Documentary",
+        "description": "RERA complaint acknowledgment and show-cause notice to builder",
+        "linkedTimelineEventId": "9",
+        "strength": "Strong",
+        "fileName": ""
+      },
+      {
+        "id": "10",
+        "type": "Documentary",
+        "description": "Rental receipts for current residence from April 2023 to March 2024 (Rs. 30,000/month)",
+        "linkedTimelineEventId": "8",
+        "strength": "Moderate",
+        "fileName": ""
+      },
+      {
+        "id": "11",
+        "type": "Testimonial",
+        "description": "Statement from 8 other flat buyers in same project facing identical delays",
+        "linkedTimelineEventId": "9",
+        "strength": "Moderate",
+        "fileName": ""
+      },
+      {
+        "id": "12",
+        "type": "Email",
+        "description": "Email communication trail with builder's customer care (45 emails) requesting status updates",
+        "linkedTimelineEventId": "5",
+        "strength": "Moderate",
+        "fileName": ""
+      }
+    ],
+    "legalIssues": [],
+    "lawSections": [
+      {
+        "id": "1",
+        "actName": "Real Estate (Regulation and Development) Act, 2016",
+        "sectionNumber": "Section 18",
+        "description": "Return of amount and compensation in case of delayed possession. Mandates builder to pay interest for delay at prescribed rate"
+      },
+      {
+        "id": "2",
+        "actName": "Real Estate (Regulation and Development) Act, 2016",
+        "sectionNumber": "Section 19(4)",
+        "description": "Penalty for non-compliance of orders. Empowers authority to penalize builder for violations"
+      },
+      {
+        "id": "3",
+        "actName": "Indian Contract Act, 1872",
+        "sectionNumber": "Section 73",
+        "description": "Compensation for loss or damage caused by breach of contract. Plaintiff entitled to damages for builder's breach"
+      },
+      {
+        "id": "4",
+        "actName": "Indian Contract Act, 1872",
+        "sectionNumber": "Section 10",
+        "description": "What agreements are contracts. Agreement is legally binding and enforceable"
+      },
+      {
+        "id": "5",
+        "actName": "Specific Relief Act, 1963",
+        "sectionNumber": "Section 14",
+        "description": "Suits in which specific performance of contract enforceable. Court can direct builder to perform contractual obligation"
+      },
+      {
+        "id": "6",
+        "actName": "Specific Relief Act, 1963",
+        "sectionNumber": "Section 20",
+        "description": "Discretion as to extent of specific performance. Court may grant performance with modifications if needed"
+      },
+      {
+        "id": "7",
+        "actName": "Consumer Protection Act, 2019",
+        "sectionNumber": "Section 2(7)",
+        "description": "Definition of deficiency in service. Builder's failure constitutes deficiency in service"
+      },
+      {
+        "id": "8",
+        "actName": "Transfer of Property Act, 1882",
+        "sectionNumber": "Section 55(1)(b)",
+        "description": "Rights and liabilities of buyer. Buyer entitled to receive property as per agreed terms"
+      }
+    ],
+    "strengths": "1. Strong documentary evidence: Original Agreement with clear possession timeline\n2. Consistent payment history: All installments paid on time despite delays\n3. RERA backing: Regulatory authority already issued show-cause notice to builder\n4. Multiple witnesses: Including independent buyers and ex-employee\n5. Clear communication trail: Legal notice sent, proper response received\n6. Quantifiable financial loss: Rental receipts, delayed compensation clause in agreement\n7. Pattern of misconduct: 8 other buyers facing same issue strengthens case\n8. Compliance from plaintiff side: No defaults in payment obligations",
+    "weaknesses": "1. Builder may claim force majeure (COVID-19, labor shortages) as valid reason for delay\n2. Mental harassment compensation of Rs. 5L may be considered excessive by court\n3. Rental cost claim may be challenged as consequential damages not directly recoverable\n4. Site supervisor witness credibility may be questioned due to ex-employee status\n5. Agreement may have generic clauses allowing builder extension in certain circumstances\n6. Specific performance may be difficult if builder has genuine financial issues\n7. Alternative relief (refund) may be more practical but Agreement may limit refund terms\n8. Some evidence (site photos, emails) is circumstantial rather than direct proof of breach",
+    "witnesses": [
+      {
+        "id": "1",
+        "name": "Mr. Rajesh Sharma (Plaintiff)",
+        "knowledge": "Primary witness. Can depose about agreement terms, payment of installments, site visits, communications with builder, mental stress due to uncertainty, financial burden of continued rental payments",
+        "linkedTimelineEventId": "2"
+      },
+      {
+        "id": "2",
+        "name": "Mrs. Meera Sharma (Plaintiff)",
+        "knowledge": "Co-applicant and co-owner. Can testify about family's reliance on possession date, planning of daughter's wedding (postponed due to no flat), emotional distress caused",
+        "linkedTimelineEventId": "2"
+      },
+      {
+        "id": "3",
+        "name": "Mr. Suresh Gupta (Fellow Buyer - Flat 305)",
+        "knowledge": "Independent witness who also booked flat in same project. Can corroborate delays, builder's pattern of false promises, RERA complaint process, site condition during visits",
+        "linkedTimelineEventId": "9"
+      },
+      {
+        "id": "4",
+        "name": "Advocate Priya Malhotra (Legal Notice Drafter)",
+        "knowledge": "Legal professional who drafted and sent legal notice. Can authenticate notice, confirm service to builder, testify about builder's unreasonable response",
+        "linkedTimelineEventId": "11"
+      },
+      {
+        "id": "5",
+        "name": "Mr. Vikram Singh (Site Supervisor - Ex-employee)",
+        "knowledge": "Former site supervisor who left company in July 2022. Can provide insider testimony about builder's financial difficulties, material shortages, actual reasons for delays",
+        "linkedTimelineEventId": "5"
+      },
+      {
+        "id": "6",
+        "name": "Mr. Arun Joshi (Bank Manager)",
+        "knowledge": "Manager at plaintiff's bank. Can authenticate payment transactions, confirm installment payment dates and amounts from bank records",
+        "linkedTimelineEventId": "3"
+      }
+    ],
+    "aiAssistance": [
+      "Identify Legal Issues",
+      "Find Relevant Precedents",
+      "Prepare Legal Arguments",
+      "Identify Weaknesses in Case",
+      "Draft Court Notes / Submissions",
+      "Prepare Cross-Examination Questions"
+    ]
+  },
+  "createdAt": "2026-02-10 15:58:30.717983",
+  "updatedAt": "2026-02-10 15:58:30.822092",
+  "status": "completed"
+}

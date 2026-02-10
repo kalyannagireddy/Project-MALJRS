@@ -1,95 +1,164 @@
+/* Typography import - must be first */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Legal Case Intelligence System — Design System
-   All colors MUST be HSL. Professional blue/gray/white legal-tech palette.
+/* 
+  ═══════════════════════════════════════════════════════════
+  MALJRS — Legal Case Intelligence System
+  Design System: "Courtroom Noir"
+  
+  Brand Narrative: The Courtroom Strategist's Command Center
+  Visual Identity: Editorial confidence meets legal gravitas
+  ═══════════════════════════════════════════════════════════
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap');
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 220 30% 12%;
+    /* ═══ Courtroom Noir Palette (Light Mode) ═══ */
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 30% 12%;
+    /* Core neutrals - warm, sophisticated */
+    --ink: 28 25 23;
+    /* Warm near-black for text */
+    --parchment: 45 15 92;
+    /* Aged paper warmth for backgrounds */
+    --slate: 220 12 65;
+    /* Cool gray for muted elements */
+    --charcoal: 28 15 25;
+    /* Deep warm gray */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 30% 12%;
+    /* Accent colors - amber authority, crimson alerts, sage success */
+    --amber: 38 85 55;
+    /* Warm gold for primary actions */
+    --amber-dark: 38 75 45;
+    /* Darker amber for hover */
+    --crimson: 0 70 50;
+    /* Strong red for destructive actions */
+    --sage: 150 25 45;
+    /* Muted green for success */
 
-    --primary: 217 71% 45%;
-    --primary-foreground: 0 0% 100%;
+    /* Semantic tokens */
+    --background: 42 20 96;
+    /* Warm cream base */
+    --foreground: var(--ink);
 
-    --secondary: 214 32% 94%;
-    --secondary-foreground: 220 30% 18%;
+    --card: 0 0 100;
+    /* Pure white cards with transparency */
+    --card-foreground: var(--ink);
 
-    --muted: 214 20% 94%;
-    --muted-foreground: 215 16% 47%;
+    --popover: 0 0 100;
+    --popover-foreground: var(--ink);
 
-    --accent: 214 32% 91%;
-    --accent-foreground: 220 30% 12%;
+    --primary: var(--amber);
+    --primary-foreground: 0 0 100;
 
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 100%;
+    --secondary: 40 25 88;
+    /* Warm light gray */
+    --secondary-foreground: var(--charcoal);
 
-    --border: 214 24% 88%;
-    --input: 214 24% 88%;
-    --ring: 217 71% 45%;
+    --muted: 40 15 90;
+    --muted-foreground: var(--slate);
 
-    --radius: 0.5rem;
+    --accent: var(--amber);
+    --accent-foreground: 0 0 100;
 
-    --sidebar-background: 220 30% 15%;
-    --sidebar-foreground: 214 20% 85%;
-    --sidebar-primary: 217 71% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 25% 22%;
-    --sidebar-accent-foreground: 214 20% 92%;
-    --sidebar-border: 220 20% 25%;
-    --sidebar-ring: 217 71% 55%;
+    --destructive: var(--crimson);
+    --destructive-foreground: 0 0 100;
 
-    --legal-success: 152 60% 40%;
-    --legal-warning: 38 92% 50%;
+    --success: var(--sage);
+    --success-foreground: 0 0 100;
+
+    --border: 40 15 82;
+    /* Subtle warm borders */
+    --input: 40 15 96;
+    /* Light input backgrounds */
+    --ring: var(--amber);
+    /* Amber focus rings */
+
+    /* Sidebar - deep charcoal with warmth */
+    --sidebar-background: 28 18 12;
+    --sidebar-foreground: 40 10 85;
+    --sidebar-primary: var(--amber);
+    --sidebar-primary-foreground: 0 0 100;
+    --sidebar-accent: 28 15 20;
+    --sidebar-accent-foreground: 40 10 90;
+    --sidebar-border: 28 15 18;
+    --sidebar-ring: var(--amber);
+
+    /* Design tokens */
+    --radius: 0.375rem;
+    /* Slightly tighter radius for precision */
+
+    /* Motion tokens - purposeful timing */
+    --transition-swift: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-considered: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-deliberate: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
-    --background: 222 30% 8%;
-    --foreground: 210 20% 95%;
+    /* ═══ Midnight Chamber Palette (Dark Mode) ═══ */
 
-    --card: 222 25% 12%;
-    --card-foreground: 210 20% 95%;
+    --ink: 40 20 94;
+    /* Warm off-white */
+    --parchment: 28 25 8;
+    /* Deep charcoal with warmth */
+    --slate: 220 10 55;
+    /* Lighter gray for readability */
+    --charcoal: 28 15 18;
+    /* Very dark warm gray */
 
-    --popover: 222 25% 12%;
-    --popover-foreground: 210 20% 95%;
+    --amber: 38 80 62;
+    /* Brighter amber for dark backgrounds */
+    --amber-dark: 38 70 52;
+    --crimson: 0 65 58;
+    /* Adjusted crimson for dark mode */
+    --sage: 150 30 50;
+    /* Visible sage in dark */
 
-    --primary: 217 71% 55%;
-    --primary-foreground: 0 0% 100%;
+    --background: 28 25 6;
+    /* Deep warm background */
+    --foreground: var(--ink);
 
-    --secondary: 217 25% 20%;
-    --secondary-foreground: 210 20% 90%;
+    --card: 28 20 10;
+    /* Dark cards with subtle warmth */
+    --card-foreground: var(--ink);
 
-    --muted: 217 25% 18%;
-    --muted-foreground: 215 16% 60%;
+    --popover: 28 20 10;
+    --popover-foreground: var(--ink);
 
-    --accent: 217 25% 22%;
-    --accent-foreground: 210 20% 95%;
+    --primary: var(--amber);
+    --primary-foreground: 28 25 8;
 
-    --destructive: 0 62% 30%;
-    --destructive-foreground: 210 40% 98%;
+    --secondary: 28 15 16;
+    --secondary-foreground: 40 15 85;
 
-    --border: 217 20% 22%;
-    --input: 217 20% 22%;
-    --ring: 217 71% 55%;
+    --muted: 28 15 14;
+    --muted-foreground: var(--slate);
 
-    --sidebar-background: 222 30% 6%;
-    --sidebar-foreground: 214 20% 85%;
-    --sidebar-primary: 217 71% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 222 25% 14%;
-    --sidebar-accent-foreground: 214 20% 92%;
-    --sidebar-border: 222 20% 15%;
-    --sidebar-ring: 217 71% 55%;
+    --accent: var(--amber);
+    --accent-foreground: 28 25 8;
+
+    --destructive: var(--crimson);
+    --destructive-foreground: 0 0 100;
+
+    --success: var(--sage);
+    --success-foreground: 28 25 8;
+
+    --border: 28 15 18;
+    --input: 28 20 12;
+    --ring: var(--amber);
+
+    --sidebar-background: 28 25 4;
+    --sidebar-foreground: 40 10 80;
+    --sidebar-primary: var(--amber);
+    --sidebar-primary-foreground: 28 25 8;
+    --sidebar-accent: 28 18 10;
+    --sidebar-accent-foreground: 40 10 85;
+    --sidebar-border: 28 15 8;
+    --sidebar-ring: var(--amber);
   }
 }
 
@@ -98,12 +167,108 @@
     @apply border-border;
   }
 
+  /* Base typography and background treatment */
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'IBM Plex Sans', -apple-system, system-ui, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Atmospheric background with subtle grain */
+    background-image:
+      radial-gradient(circle at 50% 0%, hsl(var(--background)) 0%, hsl(var(--charcoal) / 0.02) 100%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    background-attachment: fixed;
   }
 
-  h1, h2, h3 {
-    font-family: 'Source Serif 4', Georgia, serif;
+  .dark body {
+    background-image:
+      radial-gradient(circle at 50% 0%, hsl(var(--background)) 0%, hsl(0 0% 0%) 100%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+  }
+
+  /* Editorial typography hierarchy */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    @apply text-3xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  /* Monospace for data/citations */
+  code,
+  kbd,
+  samp,
+  .mono {
+    font-family: 'IBM Plex Mono', monospace;
+    font-feature-settings: 'zero' 1;
+  }
+}
+
+@layer components {
+
+  /* Frosted glass card effect */
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-sm border border-border/50;
+    box-shadow:
+      0 4px 6px -1px hsl(var(--foreground) / 0.05),
+      0 2px 4px -2px hsl(var(--foreground) / 0.05);
+  }
+
+  /* Border trace effect for interactive elements */
+  .border-trace {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .border-trace::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(135deg, hsl(var(--amber)) 0%, transparent 50%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity var(--transition-considered);
+  }
+
+  .border-trace:hover::before {
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }

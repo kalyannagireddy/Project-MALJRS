@@ -1,0 +1,24 @@
+{
+  "id": "case_ab0fae38ddfe",
+  "data": {
+    "caseTitle": "Test Case",
+    "caseType": "Civil",
+    "courtJurisdiction": "Test Court",
+    "stageOfCase": "Filed",
+    "plaintiffName": "John Doe",
+    "defendantName": "Jane Doe",
+    "timeline": [],
+    "claims": [],
+    "reliefRequested": "",
+    "evidence": [],
+    "legalIssues": [],
+    "lawSections": [],
+    "strengths": "",
+    "weaknesses": "",
+    "witnesses": [],
+    "aiAssistance": []
+  },
+  "createdAt": "2026-02-10 00:57:49.593535",
+  "updatedAt": "2026-02-10 00:57:49.593535",
+  "status": "draft"
+}

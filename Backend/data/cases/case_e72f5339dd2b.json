@@ -1,0 +1,45 @@
+{
+  "id": "case_e72f5339dd2b",
+  "data": {
+    "caseTitle": "E2E Test Case - Property Dispute",
+    "caseType": "Civil",
+    "courtJurisdiction": "District Court",
+    "stageOfCase": "Notice",
+    "plaintiffName": "Alice Smith",
+    "defendantName": "Bob Jones",
+    "timeline": [
+      {
+        "id": "1",
+        "date": "2023-01-01",
+        "description": "Agreement signed",
+        "peopleInvolved": "Alice, Bob",
+        "proofAvailable": true
+      },
+      {
+        "id": "2",
+        "date": "2023-06-01",
+        "description": "Payment failed",
+        "peopleInvolved": "Bob",
+        "proofAvailable": true
+      }
+    ],
+    "claims": [
+      "Breach of contract",
+      "Unpaid dues"
+    ],
+    "reliefRequested": "Immediate payment of dues + interest",
+    "evidence": [],
+    "legalIssues": [],
+    "lawSections": [],
+    "strengths": "Strong documentary evidence",
+    "weaknesses": "",
+    "witnesses": [],
+    "aiAssistance": [
+      "Identify legal issues",
+      "Find relevant precedents"
+    ]
+  },
+  "createdAt": "2026-02-10 00:54:44.835718",
+  "updatedAt": "2026-02-10 00:54:44.852511",
+  "status": "completed"
+}

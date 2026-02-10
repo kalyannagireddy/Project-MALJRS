@@ -1,6 +1,11 @@
-crewai>=0.28.0
+crewai
+requests
+aiohttp
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.3
+python-multipart
 crewai-tools>=0.2.6
-langchain-ollama>=0.1.5
 python-dotenv>=1.0.1
 joblib>=1.4.2
 scikit-learn>=1.5.1

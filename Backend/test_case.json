@@ -1,0 +1,37 @@
+{
+  "data": {
+    "caseTitle": "Property Dispute - Test Case",
+    "caseType": "Civil",
+    "courtJurisdiction": "District Court",
+    "stageOfCase": "Notice",
+    "plaintiffName": "Test Plaintiff",
+    "defendantName": "Test Defendant",
+    "timeline": [
+      {
+        "id": "evt1",
+        "date": "2024-01-15",
+        "description": "Initial agreement signed",
+        "peopleInvolved": "Both parties",
+        "proofAvailable": true
+      }
+    ],
+    "claims": ["Return of property", "Compensation"],
+    "reliefRequested": "Return property and compensation",
+    "evidence": [
+      {
+        "id": "ev1",
+        "fileName": "agreement.pdf",
+        "description": "Signed agreement",
+        "linkedTimelineEventId": "evt1",
+        "strength": "Strong",
+        "type": "Document"
+      }
+    ],
+    "legalIssues": [],
+    "lawSections": [],
+    "strengths": "",
+    "weaknesses": "",
+    "witnesses": [],
+    "aiAssistance": ["Identify legal issues"]
+  }
+}
